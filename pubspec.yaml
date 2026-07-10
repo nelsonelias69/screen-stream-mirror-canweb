@@ -1,0 +1,15 @@
+    name: scream_mirror
+    description: Espelha a tela igual Scream Stream
+    publish_to: 'none'
+    version: 1.0.0+1
+
+    environment:
+      sdk: ">=2.17.0 <3.0.0"
+
+    dependencies:
+      flutter:
+        sdk: flutter
+      flutter_webrtc: ^0.9.35
+
+    flutter:
+      uses-material-design: true
